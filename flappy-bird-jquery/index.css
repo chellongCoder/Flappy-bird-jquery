@@ -1,0 +1,62 @@
+body {
+	margin : 0px;
+	padding : 0px;
+}
+
+#container {
+	height: 100vh;
+	width: 100vw;
+	/*position: relative;*/
+}
+#board {
+	position: absolute;
+	top : 20%;
+	left : 20%;
+	height: 70vh;
+	width: 60vw;
+	overflow:hidden;
+}
+#score {
+	position: absolute;
+	top : 10px;
+	left : 50%;
+	font-family: 'Myriad Pro';
+	z-index: 400;
+}
+
+#bird {
+	position: absolute;
+	z-index: 999;
+}
+#start {
+	position: absolute;
+	z-index: 900;
+	top : 30%;
+	left: 40%;
+
+}
+#bgBackground {
+	position: absolute;
+	height:100%;
+	width:1536px;
+	z-index: -100;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-size:768px 100%;
+	left:0;
+}
+.c {
+	position: absolute;
+}
+#bgForeground {
+	position: absolute;
+	bottom : 0px;
+	height:15%;
+	width:1536px;
+	z-index: -40;
+	background-position: bottom;
+    background-repeat: repeat-x;
+	background-image: url(../images/below.jpg);
+	background-size:768px 100%;
+	left: 0;
+}

@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;} 
+body {
+	font-family: cursive;
+	/*background: #EDF1F0;*/
+}
+.container {
+
+
+}
+
+.jumbotron {
+	padding: 20px;
+}
+.button-header {
+	position: absolute;
+	right: 10px;
+}
+.link-header {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.border-link {
+	border-right: 1px solid blue;
+}
+.navbar-menu {
+	background: #E9ECEF;
+}
+.menu-item {
+	border-right: 2px solid #FFFFFF;
+	line-height: 10px;
+	font-size: 30px;
+	padding-left: 20px;
+	font-weight: 300em;
+}
